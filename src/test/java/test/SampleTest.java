@@ -22,6 +22,9 @@ public class SampleTest {
 		System.out.println("Demo");
 	}
 	
-	
+	@Test
+	public void Test4() {
+		System.out.println("test4");
+	}
 	
 }
