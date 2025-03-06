@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-24T08:44:30 IST" name="SwagLabTest" finished-at="2025-02-24T08:45:19 IST" duration-ms="48610">
+    <groups>
+    </groups>
+    <test started-at="2025-02-24T08:44:30 IST" name="Regression" finished-at="2025-02-24T08:45:19 IST" duration-ms="48610">
+      <class name="test.CheckoutOverviewTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckoutOverviewTest@3f191845]" started-at="2025-02-24T08:44:39 IST" name="launchApplication" finished-at="2025-02-24T08:44:41 IST" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyPriceCaculationOnCartOverviewPage()[pri:0, instance:test.CheckoutOverviewTest@3f191845]" started-at="2025-02-24T08:44:41 IST" name="verifyPriceCaculationOnCartOverviewPage" finished-at="2025-02-24T08:44:42 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriceCaculationOnCartOverviewPage -->
+      </class> <!-- test.CheckoutOverviewTest -->
+      <class name="test.AboutPageTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.AboutPageTest@3ba987b8]" started-at="2025-02-24T08:44:33 IST" name="launchApplication" finished-at="2025-02-24T08:44:35 IST" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyIfAboutPageIsAccesscible()[pri:0, instance:test.AboutPageTest@3ba987b8]" started-at="2025-02-24T08:44:35 IST" name="verifyIfAboutPageIsAccesscible" finished-at="2025-02-24T08:44:39 IST" duration-ms="4370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfAboutPageIsAccesscible -->
+      </class> <!-- test.AboutPageTest -->
+      <class name="test.SawgLabLogoutTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.SawgLabLogoutTest@909217e]" started-at="2025-02-24T08:45:16 IST" name="launchApplication" finished-at="2025-02-24T08:45:18 IST" duration-ms="2005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyIfUserIsAbleToLogout()[pri:0, instance:test.SawgLabLogoutTest@909217e]" started-at="2025-02-24T08:45:18 IST" name="verifyIfUserIsAbleToLogout" finished-at="2025-02-24T08:45:19 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfUserIsAbleToLogout -->
+      </class> <!-- test.SawgLabLogoutTest -->
+      <class name="test.SwagLabLoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.SwagLabLoginTest@5b1669c0]" started-at="2025-02-24T08:44:30 IST" name="launchApplication" finished-at="2025-02-24T08:44:32 IST" duration-ms="2195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySwagLabLogin()[pri:0, instance:test.SwagLabLoginTest@5b1669c0]" started-at="2025-02-24T08:44:32 IST" name="verifySwagLabLogin" finished-at="2025-02-24T08:44:33 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySwagLabLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.SwagLabLoginTest@5b1669c0]" started-at="2025-02-24T08:44:33 IST" name="closeBrowser" finished-at="2025-02-24T08:44:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.SwagLabLoginTest -->
+      <class name="test.ProductSortTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.ProductSortTest@5afa3c9]" started-at="2025-02-24T08:44:42 IST" name="launchApplication" finished-at="2025-02-24T08:44:45 IST" duration-ms="2972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySortingOfProductWithZToA()[pri:0, instance:test.ProductSortTest@5afa3c9]" started-at="2025-02-24T08:44:45 IST" name="verifySortingOfProductWithZToA" finished-at="2025-02-24T08:44:46 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortingOfProductWithZToA -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.ProductSortTest@5afa3c9]" started-at="2025-02-24T08:44:46 IST" name="launchApplication" finished-at="2025-02-24T08:44:48 IST" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySortingWithPriceHighToLow()[pri:0, instance:test.ProductSortTest@5afa3c9]" started-at="2025-02-24T08:44:48 IST" name="verifySortingWithPriceHighToLow" finished-at="2025-02-24T08:44:49 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortingWithPriceHighToLow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.ProductSortTest@5afa3c9]" started-at="2025-02-24T08:44:49 IST" name="launchApplication" finished-at="2025-02-24T08:44:51 IST" duration-ms="2427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySortingWithPriceLowToHigh()[pri:0, instance:test.ProductSortTest@5afa3c9]" started-at="2025-02-24T08:44:51 IST" name="verifySortingWithPriceLowToHigh" finished-at="2025-02-24T08:44:52 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortingWithPriceLowToHigh -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.ProductSortTest@5afa3c9]" started-at="2025-02-24T08:44:52 IST" name="launchApplication" finished-at="2025-02-24T08:44:55 IST" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySortingProductWithAtoZ()[pri:0, instance:test.ProductSortTest@5afa3c9]" started-at="2025-02-24T08:44:55 IST" name="verifySortingProductWithAtoZ" finished-at="2025-02-24T08:44:56 IST" depends-on-methods="test.ProductSortTest.verifySortingOfProductWithZToA" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortingProductWithAtoZ -->
+      </class> <!-- test.ProductSortTest -->
+      <class name="test.AddToCartTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:44:56 IST" name="launchApplication" finished-at="2025-02-24T08:44:58 IST" duration-ms="2207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verfiyIfUserIsAbleProductToCart()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:44:58 IST" name="verfiyIfUserIsAbleProductToCart" finished-at="2025-02-24T08:44:58 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyIfUserIsAbleProductToCart -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:44:58 IST" name="launchApplication" finished-at="2025-02-24T08:45:01 IST" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyIfCorrectProuctIsAddedToCart()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:45:01 IST" name="verifyIfCorrectProuctIsAddedToCart" finished-at="2025-02-24T08:45:02 IST" duration-ms="885" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Sauce Labs Bike Light] but found [Sauce Labs Backpack],
+expected [9.99] but found [29.99]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Sauce Labs Bike Light] but found [Sauce Labs Backpack],
+expected [9.99] but found [29.99]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at test.AddToCartTest.verifyIfCorrectProuctIsAddedToCart(AddToCartTest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfCorrectProuctIsAddedToCart -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:45:02 IST" name="launchApplication" finished-at="2025-02-24T08:45:06 IST" duration-ms="3956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyIfUserIsAbletoRemoveAddedProductToCartFromHomePage()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:45:06 IST" name="verifyIfUserIsAbletoRemoveAddedProductToCartFromHomePage" finished-at="2025-02-24T08:45:11 IST" duration-ms="5467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfUserIsAbletoRemoveAddedProductToCartFromHomePage -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:45:11 IST" name="launchApplication" finished-at="2025-02-24T08:45:13 IST" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyOnCLickingAddToCartRemoveOptionIsDisplayed()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:45:13 IST" name="verifyOnCLickingAddToCartRemoveOptionIsDisplayed" finished-at="2025-02-24T08:45:13 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnCLickingAddToCartRemoveOptionIsDisplayed -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:45:13 IST" name="launchApplication" finished-at="2025-02-24T08:45:16 IST" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyUserIsAbleToRemoveProductFromCart()[pri:0, instance:test.AddToCartTest@72035809]" started-at="2025-02-24T08:45:16 IST" name="verifyUserIsAbleToRemoveProductFromCart" finished-at="2025-02-24T08:45:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToRemoveProductFromCart -->
+      </class> <!-- test.AddToCartTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- SwagLabTest -->
+</testng-results>
