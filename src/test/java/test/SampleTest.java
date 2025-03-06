@@ -17,10 +17,11 @@ public class SampleTest {
 		System.out.println("test1");
 	}
 	
-	@Test (dependsOnMethods = "test1")
-	public void test2() {
-		System.out.println("test2");
+	@Test
+	public void demo() {
+		System.out.println("Demo");
 	}
+	
 	
 	
 }
